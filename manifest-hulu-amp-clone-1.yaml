@@ -1,0 +1,54 @@
+# READ ONLY FILE
+# Changes made here will be ignored. Please use the Hightouch dashboard to create and edit sources and destinations.
+
+sources:
+  cmi-tag-uploads:
+    name: CMI Tag Uploads
+    type: googlesheets
+  snowflake-test:
+    name: Snowflake - Hulu AMP
+    type: snowflake
+destinations:
+  liveramp:
+    name: Performance Marketing - Liveramp
+    type: sftp
+  hulu-amds-s3:
+    name: Dev - Internal S3
+    type: s3
+  s3:
+    name: DMZ - S3 Dev
+    type: s3
+  s3-2:
+    name: DMZ - S3 Prod
+    type: s3
+  s3-3:
+    name: Performance Marketing - VideoAMP
+    type: s3
+  sftp-samba:
+    name: Performance Marketing - Samba
+    type: sftp
+  warehouse-sync-logs:
+    name: Warehouse Sync Logs
+    type: sync-logs
+  sftp:
+    name: Performance Marketing - Digitas
+    type: sftp
+  s3-4:
+    name: Prod - Hulu Proton cp3
+    type: s3
+  s3-testing-prod:
+    name: esp-s3-prod
+    type: s3
+  amplitude:
+    name: Amplitude
+    type: amplitude
+  s3-5:
+    name: pacman-s3-prod
+    type: s3
+  snowflake-streaming-paid-media:
+    name: Dev - Hulu AMP
+    type: snowflake-destination
+  snowflake:
+    name: CMI - HULU AMP
+    type: snowflake-destination
+slug: manifest-hulu-amp-clone-1
