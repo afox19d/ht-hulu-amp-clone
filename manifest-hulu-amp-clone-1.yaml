@@ -2,12 +2,12 @@
 # Changes made here will be ignored. Please use the Hightouch dashboard to create and edit sources and destinations.
 
 sources:
-  cmi-tag-uploads:
-    name: CMI Tag Uploads
-    type: googlesheets
   snowflake-test:
     name: Snowflake - Hulu AMP
     type: snowflake
+  cmi-tag-uploads:
+    name: CMI Tag Uploads
+    type: googlesheets
 destinations:
   liveramp:
     name: Performance Marketing - Liveramp
