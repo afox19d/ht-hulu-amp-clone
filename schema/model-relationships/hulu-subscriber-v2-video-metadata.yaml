@@ -3,4 +3,6 @@ from:
   slug: hulu-subscriber-v2
 to:
   slug: video
-through: []
+through:
+  - watch-fact-video
+  - hulu-subscriber-v2-watch-fact
