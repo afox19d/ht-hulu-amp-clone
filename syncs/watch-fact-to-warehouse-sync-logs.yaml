@@ -1,0 +1,7 @@
+model: watch-fact
+destination: warehouse-sync-logs
+config:
+  configVersion: 0
+schedule:
+  type: manual
+schedulePaused: true
