@@ -1,0 +1,6 @@
+name: Video Metadata
+from:
+  slug: hulu-subscriber-v2
+to:
+  slug: video
+through: []
