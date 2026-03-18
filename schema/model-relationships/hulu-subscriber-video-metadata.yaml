@@ -1,0 +1,8 @@
+name: Video Metadata
+from:
+  slug: hulu-subscriber
+to:
+  slug: video
+through:
+  - hulu-subscriber-watch-fact
+  - watch-fact-video
