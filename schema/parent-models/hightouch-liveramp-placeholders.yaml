@@ -1,0 +1,8 @@
+name: Perf Mktg - Liveramp Placeholders
+source: snowflake-test
+description: Do not use for creating audiences. This model is used exclusively for the Liveramp single file delivery mechanism
+type: table
+tableName: BUILD.HIGHTOUCH_LIVERAMP_PLACEHOLDER_MERGE_VW
+primaryKey: USER_ID
+primaryLabel: USER_ID
+secondaryLabel: USER_ID
