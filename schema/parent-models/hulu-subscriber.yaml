@@ -1,0 +1,8 @@
+name: Hulu Audience Builder
+source: snowflake-test
+description: Default model to be used for building audiences.
+type: table
+tableName: INPUT.AUDIENCE_HULU_SUBSCRIBER_DIM_HIGHTOUCH_SHARE_VW
+primaryKey: USER_ID
+primaryLabel: USER_ID
+secondaryLabel: USER_ID
