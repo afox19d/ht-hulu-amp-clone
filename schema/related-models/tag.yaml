@@ -1,0 +1,5 @@
+name: Tag
+source: snowflake-test
+description: tag user by tag_name/tag_id for segment analysis
+type: table
+tableName: INPUT.AUDIENCE_TAG_VW

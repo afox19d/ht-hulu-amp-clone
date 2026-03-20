@@ -1,0 +1,33 @@
+name: Video Metadata
+source: snowflake-test
+type: raw_sql
+rawSql: |-
+  SELECT
+    *,
+    CASE
+      WHEN PROGRAMMING_TYPE = 'Full Movie' THEN 'feature_film'
+      WHEN MEDIA_TYPE = 'Film'
+      OR MEDIA_TYPE = 'Movie' THEN CASE
+        WHEN PROGRAMMING_TYPE = 'Trailer' THEN 'film_trailer'
+        ELSE 'film_clip'
+      END
+      WHEN PROGRAMMING_TYPE = 'Miniseries' THEN 'episode'
+      WHEN PROGRAMMING_TYPE = 'Episode'
+      OR PROGRAMMING_TYPE = 'Full Episode' THEN CASE
+        WHEN (
+          SEASON_NUMBER IS NULL
+          OR TRY_CAST(SEASON_NUMBER AS INTEGER) < 1
+          OR SEASON_NUMBER = 'N/A'
+          OR EPISODE_NUMBER = ''
+          OR EPISODE_NUMBER IS NULL
+          OR TRY_CAST(EPISODE_NUMBER AS INTEGER) < 1
+          OR EPISODE_NUMBER = 'N/A'
+        ) THEN 'clip'
+        ELSE 'episode'
+      END
+      WHEN PROGRAMMING_TYPE = 'Full Game' THEN 'game'
+      ELSE 'clip'
+    END AS video_type
+  FROM
+    INPUT.DIM_VIDEO;
+tableName: INPUT.DIM_VIDEO

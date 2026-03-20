@@ -1,0 +1,4 @@
+name: Watch Aggregate
+source: snowflake-test
+type: table
+tableName: INPUT.AUDIENCE_HULU_DAILY_WATCH_BEHAVIORS_ENRICHED_FACT_MVW

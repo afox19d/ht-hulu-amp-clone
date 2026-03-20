@@ -1,0 +1,4 @@
+name: sports event
+source: snowflake-test
+type: table
+tableName: INPUT.DIM_SPORTS_EVENT

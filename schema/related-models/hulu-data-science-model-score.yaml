@@ -1,0 +1,5 @@
+name: Hulu Data Science Model Score
+source: snowflake-test
+description: 'This view has model score for all the Hulu Data science models. '
+type: table
+tableName: INPUT.AUDIENCE_HULU_DATASCI_MARKETING_MODEL_SCORES_VW

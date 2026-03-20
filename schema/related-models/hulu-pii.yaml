@@ -1,0 +1,5 @@
+name: HULU PII
+source: snowflake-test
+type: raw_sql
+rawSql: select * from STREAMING_PAID_MEDIA_CW.BUILD.IDENTITY_ACCOUNT_PII_ATTRIBUTES_DIM_MAPPING
+tableName: INPUT.HULU_REGISTERED_USER_VW

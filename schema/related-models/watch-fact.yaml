@@ -1,0 +1,4 @@
+name: Watch Event
+source: snowflake-test
+type: table
+tableName: INPUT.AUDIENCE_HULU_DAILY_WATCH_BEHAVIORS_FACT_VW
