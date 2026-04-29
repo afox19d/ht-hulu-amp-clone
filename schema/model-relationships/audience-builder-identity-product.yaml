@@ -1,0 +1,11 @@
+from:
+  relationshipName: 'Identity -> Product '
+  slug: audience-builder
+  mergeColumns: false
+to:
+  slug: identity-product
+  mergeColumns: false
+cardinality: 1:many
+mapping:
+  - fromColumn: IDENTITY_ID
+    toColumn: IDENTITY_ID
