@@ -1,0 +1,4 @@
+name: 'Identity -> Product '
+source: snowflake-test
+type: table
+tableName: INPUT.AUDIENCE_UNIFIED_IDENTITY_PRODUCT_DIM_VW
