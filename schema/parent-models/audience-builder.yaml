@@ -1,0 +1,7 @@
+name: Audience Builder
+source: snowflake-test
+type: table
+tableName: INPUT.AUDIENCE_UNIFIED_SUBSCRIBER_DIM_VW
+primaryKey: IDENTITY_ID
+primaryLabel: IDENTITY_ID
+secondaryLabel: IDENTITY_ID
