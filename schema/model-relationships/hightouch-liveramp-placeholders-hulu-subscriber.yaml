@@ -1,0 +1,11 @@
+from:
+  relationshipName: Hulu Audience Builder
+  slug: hightouch-liveramp-placeholders
+  mergeColumns: true
+to:
+  slug: audience-builder
+  mergeColumns: false
+cardinality: '1:1'
+mapping:
+  - fromColumn: USER_ID
+    toColumn: IDENTITY_ID
