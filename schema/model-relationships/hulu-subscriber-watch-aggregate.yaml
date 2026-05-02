@@ -1,0 +1,12 @@
+from:
+  relationshipName: Watch Aggregate
+  slug: audience-builder
+  mergeColumns: false
+to:
+  relationshipName: Hulu Audience Builder
+  slug: watch-aggregate
+  mergeColumns: false
+cardinality: 1:many
+mapping:
+  - fromColumn: IDENTITY_ID
+    toColumn: USER_ID
