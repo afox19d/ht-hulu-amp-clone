@@ -5,7 +5,7 @@ from:
 to:
   relationshipName: Audience Builder
   slug: identity-product
-  mergeColumns: true
+  mergeColumns: false
 cardinality: 1:many
 mapping:
   - fromColumn: IDENTITY_ID
