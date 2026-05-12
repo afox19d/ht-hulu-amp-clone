@@ -3,8 +3,9 @@ from:
   slug: audience-builder
   mergeColumns: false
 to:
+  relationshipName: Audience Builder
   slug: identity-product
-  mergeColumns: false
+  mergeColumns: true
 cardinality: 1:many
 mapping:
   - fromColumn: IDENTITY_ID
