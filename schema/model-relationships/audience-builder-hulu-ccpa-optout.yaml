@@ -1,0 +1,11 @@
+from:
+  relationshipName: Hulu CCPA OPTOUT
+  slug: audience-builder
+  mergeColumns: false
+to:
+  slug: hulu-ccpa-optout
+  mergeColumns: false
+cardinality: 1:many
+mapping:
+  - fromColumn: HULU_USER_ID
+    toColumn: USER_ID
