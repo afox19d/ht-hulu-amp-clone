@@ -1,0 +1,4 @@
+name: Hulu CCPA OPTOUT
+source: snowflake-test
+type: table
+tableName: INPUT.AUDIENCE_HULU_USER_CCPA_OPTOUT_REQUESTS_MVW
