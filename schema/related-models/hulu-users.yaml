@@ -1,0 +1,4 @@
+name: Hulu Users
+source: snowflake-test
+type: table
+tableName: INPUT.AUDIENCE_HULU_USER_DIM_VW
