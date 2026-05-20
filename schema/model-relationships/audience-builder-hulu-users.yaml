@@ -1,7 +1,7 @@
 from:
   relationshipName: Hulu Users
   slug: audience-builder
-  mergeColumns: true
+  mergeColumns: false
 to:
   slug: hulu-users
   mergeColumns: false
