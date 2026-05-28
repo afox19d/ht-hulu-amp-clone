@@ -1,6 +1,6 @@
 name: Video Metadata
 from:
-  slug: audience-builder
+  slug: watch-fact
 to:
   slug: video
 through:
