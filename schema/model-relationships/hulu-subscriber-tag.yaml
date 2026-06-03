@@ -9,4 +9,4 @@ to:
 cardinality: 1:many
 mapping:
   - fromColumn: HULU_USER_ID
-    toColumn: USER_ID_STR
+    toColumn: USER_ID
