@@ -8,5 +8,5 @@ to:
   mergeColumns: false
 cardinality: '1:1'
 mapping:
-  - fromColumn: IDENTITY_ID
+  - fromColumn: HULU_USER_ID
     toColumn: USERID
