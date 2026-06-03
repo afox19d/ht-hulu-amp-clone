@@ -1,7 +1,7 @@
 from:
   relationshipName: Hulu CCPA OPTOUT
   slug: audience-builder
-  mergeColumns: false
+  mergeColumns: true
 to:
   relationshipName: Audience Builder
   slug: hulu-ccpa-optout
