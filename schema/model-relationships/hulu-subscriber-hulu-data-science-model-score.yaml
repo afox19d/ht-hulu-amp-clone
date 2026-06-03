@@ -8,5 +8,5 @@ to:
   mergeColumns: false
 cardinality: 1:many
 mapping:
-  - fromColumn: IDENTITY_ID
+  - fromColumn: HULU_USER_ID
     toColumn: USER_ID
