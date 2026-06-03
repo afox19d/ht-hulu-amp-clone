@@ -1,5 +1,8 @@
 name: Tag
 source: snowflake-test
 description: tag user by tag_name/tag_id for segment analysis
-type: table
+type: raw_sql
+rawSql: |-
+  SELECT user_id::string as user_id_str, *
+  FROM INPUT.AUDIENCE_TAG_VW
 tableName: INPUT.AUDIENCE_TAG_VW
