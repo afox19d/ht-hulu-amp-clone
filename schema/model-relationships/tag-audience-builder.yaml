@@ -1,0 +1,11 @@
+from:
+  relationshipName: Unified Audience Builder
+  slug: tag
+  mergeColumns: false
+to:
+  slug: audience-builder
+  mergeColumns: false
+cardinality: 1:many
+mapping:
+  - fromColumn: USER_ID
+    toColumn: HULU_USER_ID
