@@ -1,4 +1,0 @@
-name: Tag
-source: snowflake-test
-type: table
-tableName: INPUT.AUDIENCE_TAG_VW
