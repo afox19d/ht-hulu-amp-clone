@@ -1,0 +1,11 @@
+from:
+  relationshipName: Hulu CCPA OPTOUT
+  slug: hightouch-liveramp-placeholders
+  mergeColumns: true
+to:
+  slug: hulu-ccpa-optout
+  mergeColumns: false
+cardinality: '1:1'
+mapping:
+  - fromColumn: USER_ID
+    toColumn: USER_ID
