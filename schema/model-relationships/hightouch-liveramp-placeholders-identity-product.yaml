@@ -1,0 +1,11 @@
+from:
+  relationshipName: 'Identity -> Product '
+  slug: hightouch-liveramp-placeholders
+  mergeColumns: false
+to:
+  slug: identity-product
+  mergeColumns: false
+cardinality: 1:many
+mapping:
+  - fromColumn: USER_ID
+    toColumn: IDENTITY_ID
