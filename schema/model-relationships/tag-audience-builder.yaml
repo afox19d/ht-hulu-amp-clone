@@ -3,9 +3,10 @@ from:
   slug: tag
   mergeColumns: false
 to:
+  relationshipName: Tag
   slug: audience-builder
   mergeColumns: false
-cardinality: 1:many
+cardinality: many:1
 mapping:
   - fromColumn: USER_ID
     toColumn: HULU_USER_ID
