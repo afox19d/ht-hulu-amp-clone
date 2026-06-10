@@ -1,0 +1,4 @@
+name: Offer Metadata
+source: snowflake-test
+type: table
+tableName: INPUT.OFFER_PRODUCT_METADATA_VW
