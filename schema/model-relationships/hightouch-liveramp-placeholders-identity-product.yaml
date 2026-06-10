@@ -7,5 +7,5 @@ to:
   mergeColumns: false
 cardinality: 1:many
 mapping:
-  - fromColumn: LIVERAMP_PLACEHOLDER_54
+  - fromColumn: IDENTITY_ID
     toColumn: IDENTITY_ID
