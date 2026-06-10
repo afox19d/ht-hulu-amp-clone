@@ -6,6 +6,6 @@ rawSql: |-
   SELECT user_id::string as user_id_str, *
   FROM BUILD.HIGHTOUCH_LIVERAMP_PLACEHOLDER_MERGE_VW
 tableName: BUILD.UNIFIED_LIVERAMP_PLACEHOLDER_MERGE_VW
-primaryKey: USER_ID
+primaryKey: IDENTITY_ID
 primaryLabel: USER_ID
 secondaryLabel: USER_ID
