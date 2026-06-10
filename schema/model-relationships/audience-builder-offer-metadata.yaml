@@ -1,0 +1,11 @@
+from:
+  relationshipName: Offer Metadata
+  slug: audience-builder
+  mergeColumns: true
+to:
+  slug: offer-metadata
+  mergeColumns: false
+cardinality: '1:1'
+mapping:
+  - fromColumn: PRIMARY_SUBSCRIPTION_OFFER_ID
+    toColumn: OFFER_ID
