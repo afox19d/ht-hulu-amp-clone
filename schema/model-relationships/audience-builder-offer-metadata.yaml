@@ -3,8 +3,9 @@ from:
   slug: audience-builder
   mergeColumns: false
 to:
+  relationshipName: Unified Audience Builder
   slug: offer-metadata
-  mergeColumns: false
+  mergeColumns: true
 cardinality: '1:1'
 mapping:
   - fromColumn: PRIMARY_SUBSCRIPTION_OFFER_ID
